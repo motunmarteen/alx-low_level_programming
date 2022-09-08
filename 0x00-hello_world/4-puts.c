@@ -1,12 +1,10 @@
 #include <stdio.h>
-
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * Deacription: main - Prints out a string to stdout.
+ * Return: 0 if success.
  */
-int main(void)
+jnt main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
+	puts("\"Programming is like building a multiligual puzzle");
 	return (0);
 }
