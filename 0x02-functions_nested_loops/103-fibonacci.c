@@ -12,8 +12,8 @@ int main(void)
 
 	while (1)
 	{
-		fibSum = fibOne + finTwo;
-		if (finSum > 4000000)
+		fibSum = fibOne + fibTwo;
+		if (fibSum > 4000000)
 		{
 			break;
 		}
@@ -21,7 +21,7 @@ int main(void)
 		{
 			totalSum += fibSum;
 		}
-		finOne = fibTwo;
+		fibOne = fibTwo;
 		fibTwo = fibSum;
 	}
 	printf("%.0f\n", totalSum);
