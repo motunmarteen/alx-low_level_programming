@@ -36,7 +36,7 @@ int main(void)
 		}
 
 		printf("%lu%lu", halfOne, halfTwo);
-		if (fibSum != 98)
+		if (fibNum != 98)
 		{
 			printf(", ");
 		}
