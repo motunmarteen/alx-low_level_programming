@@ -20,7 +20,7 @@ int main(void)
 
 		if (fibNum == 49)
 		{
-			print("\n");
+			printf("\n");
 		}
 		else
 		{
