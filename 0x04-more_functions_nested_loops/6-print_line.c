@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * print_line -> printing line
+ * print_line -> Draws a straight line using the character _
  * @n: The number of _ characters to be printed.
+ * Return: Always 0.
  */
-voind print_line(int n)
+void print_line(int n)
 {
 	int len;
 
