@@ -1,5 +1,3 @@
-Executable File  30 lines (24 sloc)  396 Bytes
-
 #include "lists.h"
 
 /**
